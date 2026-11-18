@@ -1,4 +1,3 @@
-1
 class Pessoa {
     nome: string;
 
@@ -31,7 +30,6 @@ const prof1 = new Professor("Dr. Tonho Do Gas", "Alquimia Avancada");
 console.log(aluno1);
 console.log(prof1);
 
-2
 class ContaBancaria {
     protected saldo: number;
 
@@ -61,7 +59,6 @@ minhaConta.depositar(500);
 minhaConta.sacar(20);
 console.log("Saldo atual:", minhaConta.consultarSaldo());
 
-3 
 class Animal {
     emitirSom(): void {
         console.log("Algum som esquisito");
@@ -85,7 +82,7 @@ const bicho2: Animal = new Gato();
 
 bicho1.emitirSom();
 bicho2.emitirSom();
-4
+
 abstract class Forma {
     abstract calcularArea(): number;
 }
@@ -123,7 +120,7 @@ const pizza = new Circulo(30);
 
 console.log("Area retangulo:", caixa.calcularArea());
 console.log("Area circulo:", pizza.calcularArea());
-5
+
 abstract class Pessoa {
     public nome: string;
     private _idSecreto: number;
